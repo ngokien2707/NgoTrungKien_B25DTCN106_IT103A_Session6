@@ -33,7 +33,7 @@ header {
 .content>p,li{
     color: black;
 }
-.content:hover{
+li:hover{
     background-color: #78350f;
     color: yellow;
 } 
