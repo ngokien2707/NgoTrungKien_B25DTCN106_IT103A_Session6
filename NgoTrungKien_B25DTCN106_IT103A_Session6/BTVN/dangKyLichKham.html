@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đăng ksy lịch khám</title>
+    <link rel="stylesheet" href="./dangKyLichKham.css" />
+  </head>
+  <body>
+    <header>
+      <div class="title">
+        <h1>Đăng ký lịch khám</h1>
+      </div>
+      <div class="nav">
+        <a href="./trangChu.html" class="nav1">Trang chủ</a>
+        <a href="./dichVu.html" class="nav1">Dịch vụ</a>
+        <a href="./dangKyLichKham.html" class="nav1">Đăng ký lịch khám</a>
+      </div>
+    </header>
+    <br />
+    <form action="">
+      <div>
+        <label for="username">Họ và tên</label>
+        <br />
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Nhập họ tên "
+        />
+      </div>
+      <br />
+      <div>
+        <label for="email">Email</label>
+        <br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="example@gmail.com"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="number">Số điện thoại</label>
+        <br />
+        <input type="number" id="number" name="number" />
+      </div>
+      <br />
+      <div>
+        <label for="dichVu">Chọn dịch vụ</label>
+        <br />
+        <select name="dichVu" id="dichVu">
+          <option value="">Khám răng tổng quát</option>
+          <option value="">Lấy cao răng</option>
+          <option value="">Tẩy trắng răng</option>
+          <option value="">Niềng răng</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <label for="date">Ngày khám</label>
+        <br />
+        <input type="date" name="date" id="date" />
+      </div>
+      <br />
+      <div>
+        <label for="ghiChu">Ghi chú thêm</label>
+        <br />
+        <textarea
+          name="ghiChu"
+          id="ghiChu"
+          placeholder="Yêu cầu thêm..."
+        ></textarea>
+      </div>
+      <br />
+      <button type="submit">Gửi đăng ký</button>
+    </form>
+    <br />
+    <footer>
+      <div>
+        <span>&copy; 2026 Nha Khoa Chăm Sóc Nụ Cười Việt</span>
+        <br />
+        <span> Địa chỉ: 123 Đường Nụ Cười - Hotline: 0900 000 000 </span>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+body {
+    background-color: #F0F9FF;
+}
+header {
+    text-align: center;
+}
+.title_1 {
+    background-color: #CCFBF1;
+    color: #0F766E;
+}
+.nav_1 {
+    background-color: #E0F2FE;
+    font-weight: 1000;
+}
+.nav_2 {
+    text-decoration: dashed;
+}
+.nav_2:hover {
+    background-color: #0284C7;
+    color: white;
+}
+.bangDichVu {
+    width: 100%;
+    font-size: 14px;
+}
+.tieuDe {
+    background-color: #BAE6FD;
+    color: #075985;
+}
+.noiDungBang:hover {
+    background-color: #BAE6FD;
+}
+footer {
+    text-align: center;
+}
+.footer {
+    background-color: #0F766E;
+    color: white;
+}

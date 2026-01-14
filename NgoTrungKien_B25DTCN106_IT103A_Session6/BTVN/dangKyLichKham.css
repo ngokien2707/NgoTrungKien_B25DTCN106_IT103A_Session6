@@ -1,0 +1,53 @@
+body {
+  background-color: #f0f9ff;
+}
+header {
+  text-align: center;
+}
+.title {
+  background-color: #ccfbf1;
+  color: #0f766e;
+}
+.nav {
+  background-color: #e0f2fe;
+}
+.nav1 {
+  text-decoration: dashed;
+  font-weight: 1000;
+}
+.nav1:hover {
+  text-decoration: dashed;
+  background-color: #0284c7;
+  color: white;
+  font-weight: 1000;
+}
+form {
+  text-align: center;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select,
+textarea {
+  background-color: white;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="date"]:focus,
+select:focus,
+textarea:focus {
+  background-color: #e0f2fe;
+}
+button {
+  background-color: #4fe1d5;
+}
+button:hover {
+  background-color: #0f766e;
+}
+footer {
+  background-color: #0f766e;
+  color: white;
+  text-align: center;
+}

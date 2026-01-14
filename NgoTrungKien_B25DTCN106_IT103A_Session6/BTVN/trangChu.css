@@ -1,0 +1,42 @@
+body {
+    background-color: #F0F9FF;
+}
+header {
+    text-align: center;
+}
+.title_1 {
+    background-color: #CCFBF1;
+    color: #0F766E;
+}
+.nav_1 {
+    background-color: #E0F2FE;
+    font-weight: 1000;
+}
+.nav_2 {
+    text-decoration: dashed;
+}
+.nav_2:hover {
+    background-color: #0284C7;
+    color: white;
+}
+.img {
+    text-align: center;
+    background-color: #F0F9FF;
+}
+h2 {
+    color: #155E75;
+}
+.body {
+    background-color: white;
+}
+.list:hover {
+    background-color: #DBEAFE;
+    color: #6DBEFE;
+}
+footer {
+    text-align: center;
+}
+.footer {
+    background-color: #0F766E;
+    color: white;
+}
